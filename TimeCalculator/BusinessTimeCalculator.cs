@@ -104,7 +104,7 @@ namespace TimeCalculator
     public static class BusinessTimeCalculator
     {
         private static HashSet<DateTime> _holidays = new HashSet<DateTime>();
-
+        //change to test source control
         public static bool IsOpenWeekends = false;
         public static bool IsOpenHolidays = false;
         public static bool IsAlwaysOpen = false;
