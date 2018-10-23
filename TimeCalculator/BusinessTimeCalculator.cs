@@ -5,6 +5,7 @@ namespace TimeCalculator
 {
     public class Time : IComparable<Time>
     {
+        //test for branch
         private int _hour = 0;
         public int Hour
         {
