@@ -11,7 +11,7 @@ namespace BusinessTime.Calculator
 {
     public class TimeZoneConverter
     {
-        private const string APIKEY = "AIzaSyDUBnZe8_h7BRrXM1x5fx3hsO0CnYisXig";
+        private static string APIKEY = Environment.GetEnvironmentVariable("GMAPSAPIKEY");
 
         public static async Task<TimeZoneInfo> GetTimeZoneInfoAsync(string city = null, string state = null, string zipCode = null)
         {

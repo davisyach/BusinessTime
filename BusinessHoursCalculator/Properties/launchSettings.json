@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "BusinessTime.Core": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "GMAPSAPIKEY": "AIzaSyDN4ZRxNbq2E63HiUjCYm8lpudC8yK1QdE"
+      }
+    }
+  }
+}
