@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TimeCalculator
+namespace BusinessTime
 {
     public class Time : IComparable<Time>
     {
-        //test for branch
         private int _hour = 0;
         public int Hour
         {

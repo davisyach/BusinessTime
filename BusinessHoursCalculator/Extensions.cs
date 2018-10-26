@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TimeCalculator
+namespace BusinessTime
 {
     public static class Extensions
     {
